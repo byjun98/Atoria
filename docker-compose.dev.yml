@@ -1,0 +1,22 @@
+services:
+  nginx:
+    ports:
+      - "80:80"
+
+  backend:
+    ports:
+      - "8080:8080"    
+
+  ai:
+    ports:
+      - "8000:8000"  
+    volumes:
+      - ./ai:/app
+
+  db:
+    ports:
+      - "5432:5432"  # DBeaver 연결용
+
+  redis:
+    ports:
+      - "6379:6379"  

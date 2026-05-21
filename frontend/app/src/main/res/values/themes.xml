@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Culture" parent="@android:style/Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.Culture.Splash" parent="Theme.Culture">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+</resources>

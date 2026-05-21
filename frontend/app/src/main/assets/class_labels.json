@@ -1,0 +1,34 @@
+{
+  "classes": [
+    "bulguksa_baegungyo",
+    "bulguksa_daeungjeon",
+    "cheomseongdae",
+    "cheonmachong",
+    "cheonmachong_gold_crown",
+    "dabotap",
+    "donggung_wolji",
+    "emille_bell",
+    "goseonsaji_three_story_pagoda",
+    "gyeongju_bonghwangdae",
+    "gyeongju_hyanggyo",
+    "gyeongju_other_tombs",
+    "gyeongju_seokbinggo",
+    "seokgatap"
+  ],
+  "class_labels_ko": {
+    "bulguksa_baegungyo": "불국사 백운교",
+    "bulguksa_daeungjeon": "불국사 대웅전",
+    "cheomseongdae": "첨성대",
+    "cheonmachong": "천마총",
+    "cheonmachong_gold_crown": "천마총 금관",
+    "dabotap": "불국사 다보탑",
+    "donggung_wolji": "동궁과 월지",
+    "emille_bell": "에밀레종(성덕대왕신종)",
+    "goseonsaji_three_story_pagoda": "경주 고선사지 삼층석탑",
+    "gyeongju_bonghwangdae": "경주 봉황대",
+    "gyeongju_hyanggyo": "경주 향교",
+    "gyeongju_seokbinggo": "경주 석빙고",
+    "seokgatap": "불국사 석가탑",
+    "gyeongju_other_tombs": "기타 고분"
+  }
+}

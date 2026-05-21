@@ -1,0 +1,15 @@
+fastapi==0.136.0
+uvicorn[standard]==0.44.0
+pydantic
+pydantic-settings
+sqlalchemy
+alembic
+psycopg[binary]
+pgvector
+structlog
+python-dotenv
+httpx
+beautifulsoup4
+lxml
+openai
+python-multipart

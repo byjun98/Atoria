@@ -1,0 +1,130 @@
+# ==========================================
+# 1. 환경 변수 및 보안 (CRITICAL)
+# ==========================================
+.env*
+!.env.example
+local.properties
+*.keystore
+*.jks
+google-services.json
+
+# ==========================================
+# 2. 공통 및 OS
+# ==========================================
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+logs/
+.tmp/
+
+# ==========================================
+# 3. IDE 설정 (IntelliJ, Android Studio, VS Code)
+# ==========================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ==========================================
+# 4. Spring Boot (Java/Gradle)
+# ==========================================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+bin/
+out/
+.gradletestuserhome/
+
+# ==========================================
+# 5. FastAPI (Python)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# 6. Android (Kotlin)
+# ==========================================
+# 빌드 결과물
+*.apk
+*.ap_
+*.aab
+*.dex
+
+# 자동 생성 파일
+gen/
+generated/
+
+# 린트 및 테스트 리포트
+/lint/
+/test-results/
+
+# Android Studio 로컬 설정 및 캐시
+local.properties
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+google-services.json
+*.hprof
+
+# ==========================================
+# 7. Frontend (Node.js / Web)
+# ==========================================
+node_modules/
+dist/
+.npm/
+
+
+# ==========================================
+# 8. Etc 
+# ==========================================
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+# Jenkins
+jenkins_home/
+
+# DB dump
+*.rdb
+*.dump
+*.sql
+
+# logs
+*.log
+*.out
+*.err
+
+# Claude Code (사용자별 환경/임시 작업 공간 — 커밋 금지)
+.claude/
+
+# getdesign — 로컬 디자인 참고 (개인 환경, 커밋 금지)
+DESIGN.md
+
+# Unity IL2CPP generated outputs
+game/
+frontend/unityLibrary/src/main/jniLibs/**/libil2cpp*.so
+frontend/unityLibrary/symbols/
+!frontend/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/
+!frontend/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/**
+!frontend/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/icalls/mscorlib/System.Globalization/Generated/
+!frontend/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/icalls/mscorlib/System.Globalization/Generated/**
+!frontend/unityLibrary/src/main/assets/bin/
+!frontend/unityLibrary/src/main/assets/bin/**

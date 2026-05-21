@@ -1,0 +1,28 @@
+{
+  "task": "image_classification",
+  "input_name": "input",
+  "output_name": "probabilities",
+  "input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "image_size": 224,
+  "color_format": "RGB",
+  "channel_order": "CHW",
+  "value_range_before_normalize": "0.0_to_1.0",
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "resize_policy": "resize_or_center_crop_to_224; keep this identical to app implementation",
+  "output_type": "softmax_probabilities",
+  "top_class_rule": "argmax(probabilities)"
+}

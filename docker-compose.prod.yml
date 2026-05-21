@@ -1,0 +1,17 @@
+services:
+  nginx:
+    ports:
+      - "80:80"
+    restart: unless-stopped
+
+  backend:
+    restart: unless-stopped
+
+  ai:
+    restart: unless-stopped
+
+  db:
+    restart: unless-stopped
+
+  redis:
+    restart: unless-stopped

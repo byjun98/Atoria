@@ -1,0 +1,36 @@
+# Gradle 빌드 캐시 및 출력물
+.gradle/
+build/
+
+# IDE 설정
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+*.factorypath
+
+# 로컬 환경 파일
+.env
+.env.*
+*.env
+
+# 테스트 리포트
+test-results/
+reports/
+
+# 로그
+*.log
+logs/
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore

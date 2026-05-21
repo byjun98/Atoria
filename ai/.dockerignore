@@ -1,0 +1,56 @@
+# Python 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# 가상 환경
+.venv/
+venv/
+env/
+.env/
+
+# 로컬 환경 파일
+.env
+.env.*
+*.env
+
+# Pytest / 테스트
+.pytest_cache/
+.coverage
+htmlcov/
+tests/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ML 모델 / 대용량 데이터 (필요 시 주석 해제)
+# models/
+# *.bin
+# *.pt
+# *.pth
+# *.onnx
+# data/
+
+# IDE 설정
+.idea/
+.vscode/
+*.swp
+
+# 로그
+*.log
+logs/
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
